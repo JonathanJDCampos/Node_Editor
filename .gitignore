@@ -1,0 +1,22 @@
+#Visual Studio
+Debug/
+Release/
+*.sln
+*.vcxproj
+*.filters
+*.users
+*.user
+*.dll
+.vs 
+*.o
+*.d
+*.obj
+
+# Visual Studio Code
+.vscode/
+
+# Builds
+bin/
+Makefile
+Build/
+cmake_modules/
