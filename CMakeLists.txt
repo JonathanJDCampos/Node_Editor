@@ -43,7 +43,7 @@ set(SOURCE_FILES
 )
 
 # -----------------------------------------------------------------------------
-# Precompiled Headers (Optional)
+# Precompiled Headers 
 # -----------------------------------------------------------------------------
 set(PCH_FILES
     src/core/pch.h
@@ -75,11 +75,13 @@ target_precompile_headers(${PROJECT_NAME} PRIVATE ${PCH_FILES})
 # Includes
 # -----------------------------------------------------------------------------
 target_include_directories(${PROJECT_NAME}
-    PUBLIC SRC
+    PUBLIC src
     PUBLIC external
     PUBLIC external/glfw/include
     PUBLIC external/imgui-node-editor
     PUBLIC external/imgui-node-editor/external/imgui
+    PUBLIC external/imgui-node-editor/examples/application
+    PUBLIC external/imgui-node-editor/examples/application/source
     PUBLIC external/imgui-node-editor/examples/application/include
     PUBLIC external/imgui-node-editor/external/stb_image
 )
