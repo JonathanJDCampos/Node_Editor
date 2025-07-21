@@ -49,6 +49,6 @@ You can include dependencies manually, or via `git submodules` or `FetchContent`
 1. **Clone this repository:**
 
    ```bash
-   git clone --recursive https://github.com/JonathanJDCampos/your-repo.git
-   cd your-repo
+   git clone --recursive https://github.com/JonathanJDCampos/Node_Editor.git
+   cd Node_Editor
    ```
